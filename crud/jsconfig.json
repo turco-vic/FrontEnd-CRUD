@@ -2,7 +2,9 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "@components/*": [".src/app/components"]
+      "@styles/*": ["./src/components/*"],
+      "@components/*": ["./src/components/*"]
     }
   }
 }
+
