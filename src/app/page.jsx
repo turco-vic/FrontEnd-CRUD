@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
     return (
-            <div className={styles.container}>
+        <div className={styles.container}>
             <h1>CRUD Completo</h1>
             <nav>
                 <Link href="/get">GET</Link>
@@ -13,6 +13,8 @@ export default function Home() {
                 <Link href="/edit">EDIT</Link>
                 <br />
                 <Link href="/delete">DELETE</Link>
+                <br />
+                <Link href="/sessionstorage">SESSIONSTORAGE</Link>
             </nav>
         </div>
     );
